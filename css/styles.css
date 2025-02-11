@@ -33,11 +33,15 @@ a {
   padding-bottom: 24px;
   display: flex;
   box-sizing: border-box;
+  border-bottom: 1px solid #e7e9fc;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .navigation {
   display: flex;
   box-sizing: border-box;
+  align-items: center;
 }
 
 .logo {
@@ -80,6 +84,8 @@ a {
 
 .navigation-menu-f {
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .navigation-menu-f:hover,
@@ -115,6 +121,8 @@ a {
 
 .hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -124,7 +132,6 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
-  padding-top: 188px;
   padding-bottom: 48px;
   display: flex;
   box-sizing: border-box;
@@ -140,13 +147,23 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  margin-bottom: 188px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
   cursor: pointer;
+}
+
+.second {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .visually-hidden {
@@ -163,10 +180,12 @@ a {
 }
 
 .second-item {
-  margin-top: 120px;
-  margin-bottom: 120px;
   display: flex;
   gap: 24px;
+}
+
+.second-li {
+  width: calc(100% - 72px);
 }
 
 .second-title {
@@ -278,6 +297,10 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.images {
+  display: block;
 }
 
 .footer {

@@ -6,10 +6,38 @@ body {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
 }
 
 a {
   text-decoration: none;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.navigation {
+  display: flex;
+  box-sizing: border-box;
 }
 
 .logo {
@@ -21,6 +49,8 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
+  box-sizing: border-box;
 }
 
 .studio {
@@ -39,6 +69,13 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  box-sizing: border-box;
+  display: flex;
+  gap: 40px;
+}
+
+.navigation-menu:last-child {
+  margin-right: 332px;
 }
 
 .navigation-menu-f {
@@ -57,6 +94,9 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
   font-style: normal;
+  display: flex;
+  box-sizing: border-box;
+  gap: 40px;
 }
 
 .navigation-address-f {
@@ -84,6 +124,11 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  padding-top: 188px;
+  padding-bottom: 48px;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 496px;
 }
 
 .hero-button {
@@ -95,6 +140,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  margin-bottom: 188px;
 }
 
 .hero-button:hover,
@@ -103,12 +149,33 @@ a {
   cursor: pointer;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.second-item {
+  margin-top: 120px;
+  margin-bottom: 120px;
+  display: flex;
+  gap: 24px;
+}
+
 .second-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .second-text {
@@ -131,6 +198,15 @@ a {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  padding-top: 120px;
+  padding-bottom: 72px;
+  display: flex;
+}
+
+.third-item {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 120px;
 }
 
 .third-card {
@@ -144,6 +220,9 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 32px;
+  padding-bottom: 8px;
+  text-align: center;
 }
 
 .third-text {
@@ -153,6 +232,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  padding-bottom: 32px;
 }
 
 .fourth-title {
@@ -163,10 +243,23 @@ a {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  padding-top: 120px;
+  padding-bottom: 72px;
+}
+
+.fourth-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
 }
 
 .fourth-card {
   background: #fff;
+}
+
+.fourth-card:last-child {
+  padding-bottom: 120px;
 }
 
 .fourth-sub-title {
@@ -175,6 +268,8 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 
 .fourth-text {
@@ -189,12 +284,25 @@ a {
   background-color: #2e2f42;
 }
 
+.logo-footer {
+  color: #4d5ae5;
+  justify-content: flex-start;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  display: flex;
+}
+
 .footer-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  padding-bottom: 100px;
 }
 
 .studio-s {

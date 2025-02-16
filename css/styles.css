@@ -111,6 +111,11 @@ img {
   gap: 40px;
 }
 
+.navigation-adress-items {
+  display: flex;
+  gap: 40px;
+}
+
 .navigation-address-f {
   line-height: 1.5;
   letter-spacing: 0.02em;

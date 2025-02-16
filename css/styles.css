@@ -85,9 +85,6 @@ img {
   box-sizing: border-box;
   display: flex;
   gap: 40px;
-}
-
-.navigation-menu:last-child {
   margin-right: 332px;
 }
 

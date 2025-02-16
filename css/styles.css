@@ -32,13 +32,15 @@ img {
 }
 
 .header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.container-header {
+  display: flex;
+  align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
-  display: flex;
-  box-sizing: border-box;
-  border-bottom: 1px solid #e7e9fc;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 156px;
 }
 
 .navigation {
@@ -226,15 +228,14 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-top: 120px;
   margin-bottom: 72px;
   display: flex;
+  justify-content: center;
 }
 
 .third-item {
   display: flex;
   gap: 24px;
-  margin-bottom: 120px;
 }
 
 .third-name {

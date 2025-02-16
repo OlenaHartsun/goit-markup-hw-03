@@ -51,6 +51,7 @@ img {
   display: flex;
   box-sizing: border-box;
   align-items: center;
+  margin-right: auto;
 }
 
 .logo {
@@ -115,6 +116,7 @@ img {
 .navigation-adress-items {
   display: flex;
   gap: 40px;
+  justify-content: end;
 }
 
 .navigation-address-f {
@@ -144,11 +146,10 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
-  margin-bottom: 48px;
   display: flex;
   box-sizing: border-box;
   max-width: 496px;
-  margin: 0 auto;
+  margin: 0 auto 48px auto;
 }
 
 .hero-button {
